@@ -1,0 +1,17 @@
+.DS_Store
+*.dSYM/
+*.o
+a.out
+
+# Generated server executables; keep directories required by the Makefiles.
+/project/client-server/bin/*
+!/project/client-server/bin/.gitkeep
+/project/naming-server/bin/*
+!/project/naming-server/bin/.gitkeep
+/project/storage-server/bin/*
+!/project/storage-server/bin/.gitkeep
+
+# Local credentials and environment settings.
+.env
+.env.*
+!.env.example
